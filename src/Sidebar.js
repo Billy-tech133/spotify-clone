@@ -2,7 +2,6 @@ import React from "react";
 import "./Sidebar.css";
 import SidebarOption from "./SidebarOption";
 import { Home, LibraryMusic, Search } from "@material-ui/icons";
-import { useState } from "react";
 import { useDataLayerValue } from "./DataLayer";
 function Sidebar() {
   const [{ playlists }, dispatch] = useDataLayerValue();
